@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+
+.logo img{
+    width: 50%;
+}
+
+header{
+    background-image: url("https://buypower.ng/img/bg-woman-phone-dog.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    margin: 20px;
+    margin-right: 90px;
+}
+
+.logo{
+    width: 30%;
+    margin-left: 90px;
+}
+
+li{
+    padding: 0.5rem;
+    list-style: none;
+}
+
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
