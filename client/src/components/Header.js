@@ -31,6 +31,13 @@ export default function Header() {
                 </div>
 
                 </nav>  
+
+                <div className="infos">
+                    <h1>Buy Electricity from the comfort of <br /> your home</h1>
+                    <h3>Enter your phone number to begin</h3>
+                    <input type="text" placeholder="0000-000-00"/><br />
+                    <button>buy Electricity now</button>
+                </div>
             </header> 
             <Routes>
                     <Route path='/' element={<Merchant />}></Route>
