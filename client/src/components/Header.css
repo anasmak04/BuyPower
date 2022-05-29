@@ -69,6 +69,28 @@ li{
     margin-bottom: 20px;
 
 }
+
+.infos input{
+    width:30%;
+    height:50px;
+    margin-bottom:20px;
+    border: none;
+    font-size: 30px;
+}
+
+.infos button{
+    width:30%;
+    height:50px;
+    text-transform: capitalize;
+    background-color: #8CA23B;
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+input:focus{
+    outline: none;
+}
 @media screen and (max-width:808px){
     header{
         height: 600px;
@@ -128,4 +150,29 @@ li{
          width: 40%;
      }
 
+     .infos{
+         margin: auto;
+     }
+
+     .infos h1{
+         text-align: center;
+     }
+
+     .infos h3{
+         text-align: center;
+     }
+
+     .infos input{
+        margin: 0 auto;
+        display: block;     
+    }
+
+     .infos button{
+         margin: 0 auto;
+         display: block;
+     }
+
+     .infos{
+         padding-top: 160px;
+     }
 }

@@ -13,7 +13,6 @@ export default function Header() {
       <div>
           
           <Router>
-
           <header>
                 <nav className='navbar'>
                     <div className="logo">
@@ -39,14 +38,15 @@ export default function Header() {
                     <button>buy Electricity now</button>
                 </div>
             </header> 
+
             <Routes>
                     <Route path='/' element={<Merchant />}></Route>
                     <Route path='/FAQ' element={<FAQ />}></Route>
                     <Route path='/SignUp' element={<SignUp />}></Route>
                     <Route path='/Login' element={<Login />}></Route>
                 </Routes> 
-
           </Router>
+          
       </div>
    
   )

@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class FAQ extends Component {
-    render() {
+function FAQ () {
+
         return (
             <div>
-               <h1>faq</h1> 
+                <h1>faq</h1>
             </div>
         );
-    }
+    
 }
 
 export default FAQ;
