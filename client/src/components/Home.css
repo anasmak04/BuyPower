@@ -34,6 +34,33 @@
     margin-bottom: 20px;
 }
 
+.para{
+    width: 100%;
+    background-color: orange;
+    height: 220px;
+}
+
+.child-back{
+    background-color: whitesmoke;
+    width: 250px;
+    height: 90px;
+    margin: 0 auto;
+    display: block;
+}
+
+.para-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cc{
+    background-color: blueviolet;
+}
+.cb{
+    background-color: red;
+    margin: 0 auto;
+    display: block;
+}
 @media screen and (max-width:808px){    
     .show-me h1{
         text-align: center;

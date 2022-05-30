@@ -63,9 +63,16 @@ function Home (){
 
             <div className='para'>
                 <div className='para-parent'>
-                    <div></div>
-                    <div></div>
-                    
+                    <div className='para-child cc'>
+                        <h1>What our users are saying about us</h1>
+                        <h3>See why we're rated 4.5 stars on the Playstore and Ranked 22 of 200 in finance on the App Store</h3>
+                    </div>
+                    <div className='para-child cb'>
+                        <div className='child-back'>
+                            <p>I've been using the Buypowerng app and it's superb. Highly recommended for all the busy type.</p>
+                        <span>@saniusmangombe</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             </div>
